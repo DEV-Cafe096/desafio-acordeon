@@ -1,0 +1,81 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(201, 201, 201);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+    min-height: 350px;
+    width: 650px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 50px;
+    box-shadow: 0 27px 49px -15px #000;
+
+
+}
+
+.content .faq {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+
+.content .info {
+    padding-left: 180px;
+
+}
+
+.content .img-fundo {
+    width: 300px;
+    position: absolute;
+    left: -100px;
+}
+
+.content .info .button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 15px 0 15px;
+    font-family: inherit;
+
+}
+.content .info .button h2{
+    font-weight: 700;
+}
+
+.information {
+    visibility: hidden;
+    height: 0;
+}
+
+.show-information {
+    visibility: visible;
+    margin-bottom: 15px;
+    height: max-content;
+
+}
+
+.fa-sort-down {
+    font-size: 20px;
+    color: #000;
+
+}
+
+.fa-sort-down.color {
+    color: #dd4618;
+}
