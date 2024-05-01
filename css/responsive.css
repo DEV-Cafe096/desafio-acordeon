@@ -20,8 +20,11 @@
     .content .info {
         padding: 0;
     }
+    .content .info h1{
+        font-size: 25px;
+    }
 
     .content .img-fundo{
-        transform: translateX(115px) translateY(-220px);
+        transform: translateX(115px) translateY(-260px);
     }
 }
