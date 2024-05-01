@@ -8,6 +8,8 @@ main {
     justify-content: center;
     min-height: 100vh;
     background-color: rgb(201, 201, 201);
+    /* background-image: url(../images/workdesk.jpg);
+    background-position: center no-repeat; */
 }
 
 .content {
@@ -56,6 +58,7 @@ main {
 }
 .content .info .button h2{
     font-weight: 700;
+    transition: 0,3s ease;
 }
 
 .information {
